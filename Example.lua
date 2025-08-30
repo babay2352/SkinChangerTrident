@@ -52,15 +52,6 @@ local Tab2 = TabBox:AddTab('Tab 2')
 
 -- Groupbox:AddToggle
 -- Arguments: Index, Options
-LeftGroupBox:AddToggle('MyToggle', {
-    Text = 'This is a toggle',
-    Default = true, -- Default value (true / false)
-    Tooltip = 'This is a tooltip', -- Information shown when you hover over the toggle
-
-    Callback = function(Value)
-        print('[cb] MyToggle changed to:', Value)
-    end
-})
 
 
 -- Fetching a toggle object for later use:
