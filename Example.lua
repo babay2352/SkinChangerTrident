@@ -13,7 +13,7 @@ local Window = Library:CreateWindow({
     -- Position and Size are also valid options here
     -- but you do not need to define them unless you are changing them :)
 
-    Title = 'ShermyHub/SkinChangerTS',
+    Title = 'ShermyHub/SkinChanger',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -345,7 +345,7 @@ end)
 Options.KeyPicker:SetValue({ 'MB2', 'Toggle' }) -- Sets keybind to MB2, mode to Hold
 
 -- Long text label to demonstrate UI scrolling behaviour.
---local LeftGroupBox2 = Tabs.Main:AddLeftGroupbox('Groupbox #2');
+local LeftGroupBox2 = Tabs.Main:AddLeftGroupbox('Groupbox #2');
 LeftGroupBox2:AddLabel('Oh no...\nThis label spans multiple lines!\n\nWe\'re gonna run out of UI space...\nJust kidding! Scroll down!\n\n\nHello from below!', true)
 
 local TabBox = Tabs.Main:AddRightTabbox() -- Add Tabbox on right side
